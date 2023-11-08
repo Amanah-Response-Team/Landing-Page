@@ -8,7 +8,6 @@ a {
 
 :root {
     --primary-color: #276A55;
-    --secondary-color: #FF764A;
     --text-primary: #7E7E7E;
 }
 
@@ -92,6 +91,49 @@ h1 {
 .search-input:focus {
     border-color: #9c95d7;
 }
+
+
+/* Hero */
+#card-hero {
+    margin-top: 150px;
+}
+
+#card-hero #title-hero {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+#card-hero #text-hero {
+    font-size: 20px;
+    color: var(--text-primary);
+}
+
+#card-fitur .card-title-fitur {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+#card-fitur .card-text-fitur {
+    font-size: 20px;
+    color: var(--text-primary);
+}
+
+.card-img-top {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 95px;
+}
+
+#text-hero-2 {
+    color: #229F41;
+    margin-top: -4px;
+    margin-left: 220px;
+}
+
+
 
 /* footer */
 footer {

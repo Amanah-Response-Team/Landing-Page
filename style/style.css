@@ -50,6 +50,9 @@ nav ul li {
     width: 90px;
 }
 
+
+
+
 /* header */
 .header-content {
     margin-top: 100px;
@@ -134,6 +137,33 @@ h1 {
     margin-bottom: 80px;
 }
 
+@media only screen and (max-width: 600px) {
+    #card-hero{
+        margin-top: 30px;
+    }
+
+    #card-hero #title-hero {
+        font-size: 32px;
+    }
+
+    #card-hero #text-hero{
+        font-size: 19px;
+    }
+
+    #fitur .card-body{
+        display: flex;
+        display: none;
+        visibility: hidden;
+    }
+
+    .card-img-top, #text-hero-2 {
+        display: none;
+        visibility: hidden;
+
+    }
+}
+
+
 
 /* Program */
 #program {
@@ -185,6 +215,27 @@ h1 {
     color: var(--text-primary);
 }
 
+@media only screen and (max-width: 600px) {
+    .title-program {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    #card-program-1 {
+        margin-top: 70px;
+    }
+
+    #card-program-2 {
+        margin-bottom: 0px;
+    }
+
+    #program {
+        margin-top: 50px;
+        height: 1700px;
+    }
+}
+
+
 /* activities */
 #activities {
     margin-top: 100px;
@@ -227,6 +278,28 @@ h1 {
 #card-activities{
     margin-bottom: 90px;
 }
+
+@media only screen and (max-width: 600px) {
+    #card-title-activities{
+        margin-left: 20px;
+        margin-bottom: -20px;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+    #card-title-activities .title-activities{
+        font-size: 24px;
+    }
+
+    #card-activities {
+        margin-top: -40px;
+    }
+
+    #activities {
+        margin-bottom: -100px;
+    }
+}
+
 
 /* contact */
 .title-contact {
@@ -286,11 +359,42 @@ h1 {
     margin-left: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    #card-title-contact {
+        margin-left: 40px;
+        width: 280px;
+        margin-top: 180px;
+    }
+    #card-title-contact #contact{
+        font-size: 24px;
+        margin-left: 35px;
+    }
+    .title-card-contact-1{
+        margin-top: -78px;
+    }
+    #card-body-contact-2{
+        display: none;
+        visibility: hidden;
+    }
+
+    #text-card-contact a{
+        font-size: 18px;
+        margin-right: 0px;
+    }
+}
+
 /* Image */
 .img-slide img {
     width: 100%;
     margin-top: 90px;
 }
+@media only screen and (max-width: 600px) {
+    .img-slide img {
+        width: 420px;
+    }
+}
+
+
 
 /* Donation */
 .title-donation {
@@ -348,6 +452,53 @@ h1 {
     font-size: 32px;
     display: block;
     color: var(--text-primary);
+}
+
+@media only screen and (max-width: 600px) {
+    #card-title-donation{
+        margin-left: 40px;
+        width: 280px;
+        margin-top: 90px;
+    }
+
+    #card-title-donation #donation{
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    #card-scan-donation{
+        margin-left: 23px;
+        margin-top: -30px;
+        width: 320px;
+        height: 360px;
+    }
+
+    #card-body-donation-1 h5{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #card-body-donation-1 img{
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    #card-body-donation-2{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #card-body-donation-2 h5 {
+        font-size: 24px;
+    }
+
+    #card-body-donation-2 p{
+        font-size: 24px;
+    }
+
+    #card-body-donation-2 p span{
+        font-size: 24px;
+    }
 }
 
 

@@ -158,6 +158,18 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 768px){
+    #card-hero{
+        margin-top: 40px;
+    }
+
+    .card-img-top, #text-hero-2 {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
 
 
 /* Program */
@@ -230,6 +242,17 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 768px){
+    #program{
+        margin-top: 40px;
+        height: 1600px;
+    }
+
+    #card-program-2 {
+        margin-bottom: 0px;
+    }
+}
+
 
 /* activities */
 #activities {
@@ -293,6 +316,10 @@ h1 {
     #activities {
         margin-bottom: -100px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+
 }
 
 
@@ -376,6 +403,10 @@ h1 {
         font-size: 18px;
         margin-right: 0px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+
 }
 
 /* Image */
@@ -494,6 +525,10 @@ h1 {
     #card-body-donation-2 p span{
         font-size: 24px;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    
 }
 
 

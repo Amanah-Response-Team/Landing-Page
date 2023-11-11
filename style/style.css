@@ -111,6 +111,7 @@ h1 {
 #card-hero #text-hero {
     font-size: 20px;
     color: var(--text-primary);
+    margin-bottom: 50px;
 }
 
 #card-fitur .card-title-fitur {
@@ -148,18 +149,12 @@ h1 {
 
     #card-hero #text-hero{
         font-size: 19px;
-    }
-
-    #fitur .card-body{
-        display: flex;
-        display: none;
-        visibility: hidden;
+        margin-bottom: 50px;
     }
 
     .card-img-top, #text-hero-2 {
         display: none;
         visibility: hidden;
-
     }
 }
 

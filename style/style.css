@@ -98,7 +98,7 @@ h1 {
 
 /* Hero */
 #card-hero {
-    margin-top: 190px;
+    margin-top: 150px;
 }
 
 #card-hero #title-hero {
@@ -552,6 +552,20 @@ h1 {
     font-size: 32px;
     display: block;
     color: var(--text-primary);
+}
+
+.card-tagline{
+    margin-top: 40px;
+}
+
+.card-tagline p{
+    font-size: 50px;
+    color: var(--text-primary);
+}
+
+.card-tagline p span{
+    display: block;
+    font-size: 32px;
 }
 
 @media only screen and (max-width: 600px) {

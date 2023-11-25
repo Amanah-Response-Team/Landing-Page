@@ -1,0 +1,704 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #276A55;
+    --text-primary: #4d4d4d;
+}
+
+/* navbar */
+nav ul li {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #ff9674;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #9b91f4;
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1A1B;
+}
+
+.navbar-brand img {
+    width: 90px;
+}
+
+
+
+
+/* header */
+.header-content {
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    line-height: 150%;
+    margin-bottom: 23px;
+}
+
+.header-content p {
+    color: var(--text-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.statistic h3 {
+    font-weight: 800;
+}
+
+.statistic p {
+    font-size: 16px;
+}
+
+.search-input {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cde6ff;
+    margin-bottom: 50px;
+}
+
+.search-input:focus {
+    border-color: #9c95d7;
+}
+
+
+/* Hero */
+#card-hero {
+    margin-top: 150px;
+}
+
+#card-hero #title-hero {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+#card-hero #text-hero {
+    font-size: 20px;
+    color: var(--text-primary);
+    margin-bottom: 50px;
+}
+
+#card-fitur .card-title-fitur {
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 60px;
+}
+
+#card-fitur .card-text-fitur {
+    font-size: 20px;
+    color: var(--text-primary);
+}
+
+.card-img-top {
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 95px;
+}
+
+#text-hero-2 {
+    color: #229F41;
+    margin-top: -4px;
+    margin-left: 224px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    #card-hero{
+        margin-top: 30px;
+    }
+
+    #card-hero #title-hero {
+        font-size: 32px;
+    }
+
+    #card-hero #text-hero{
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+
+    .card-img-top, #text-hero-2 {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #card-hero{
+        margin-top: 40px;
+    }
+
+    .card-img-top, #text-hero-2 {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+
+
+/* Program */
+#program {
+    background-color: #D4E1DD;
+}
+
+.title-program {
+    font-size: 28px;
+    color: var(--text-primary);
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.icon-program{
+    border-radius: 8px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background-color: var(--primary-color);
+}
+
+.icon-program svg {
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+#card-program-1 {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#card-program-2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card-title-program{
+    color: var(--text-primary);
+}
+
+.card-text-program{
+    color: var(--text-primary);
+}
+
+@media only screen and (max-width: 600px) {
+    .title-program {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    #card-program-1 {
+        margin-top: 70px;
+    }
+
+    #card-program-2 {
+        margin-bottom: 0px;
+    }
+
+    #program {
+        margin-top: 60px;
+        height: 1950px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .title-program {
+        margin-top: 60px;
+        font-size: 24px;
+    }
+
+    #card-program-1 {
+        margin-top: 70px;
+    }
+
+    #card-program-2 {
+        margin-bottom: 0px;
+    }
+
+    #program {
+        margin-top: 50px;
+        height: 2000px;
+    }
+}
+
+
+/* activities */
+#activities {
+    margin-top: 100px;
+    background-color: #E8E8E8;
+}
+
+#card-title-activities {
+    width: 330px;
+    height: 50px;
+    margin-top:-20px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 475px; */
+}
+
+.title-activities {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 8px;
+    /* padding-left: 27px; */
+    color: var(--text-primary);
+}
+
+#card-activities{
+    margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+#card-body-activities img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#card-body-activities p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--text-primary);
+}
+
+#card-activities{
+    margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+    #card-title-activities{
+        margin-left: 20px;
+        margin-bottom: -20px;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+    #card-title-activities .title-activities{
+        font-size: 24px;
+    }
+
+    #card-activities {
+        margin-top: -40px;
+    }
+
+    #activities {
+        margin-bottom: -100px;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    #card-activities{
+        align-items: center;
+    }
+    #card-title-activities{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: -20px;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+    #card-title-activities .title-activities{
+        font-size: 24px;
+        align-items: center;
+    }
+
+    #card-activities {
+        margin-top: -40px;
+    }
+
+    #activities {
+        margin-bottom: -100px;
+    }
+} */
+
+
+/* contact */
+.title-contact {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 8px;
+    color: var(--text-primary);
+}
+
+#card-contact{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+#card-title-contact {
+    width: 330px;
+    height: 50px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+#card-body-contact {
+    display: flex;
+}
+
+#card-body-contact p{
+    display: block;
+}
+
+#card-body-contact .title-card-contact {
+    color: var(--text-primary);
+}
+
+.title-card-contact {
+    font-size: 20px;
+    color: var(--text-primary);
+    font-weight: bold;
+}
+
+.title-card-contact-1{
+    margin-top: -35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-primary);
+
+}
+#text-card-contact {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#text-card-contact a{
+    color: var(--text-primary);
+}
+
+#card-body-contact-2 img{
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #card-title-contact {
+        /* margin-left: 40px; */
+        width: 280px;
+        margin-top: 180px;
+    }
+    #card-title-contact #contact{
+        font-size: 24px;
+        /* margin-left: 35px; */
+    }
+    .title-card-contact-1{
+        margin-top: -78px;
+    }
+    #card-body-contact-2{
+        display: none;
+        visibility: hidden;
+    }
+
+    #text-card-contact a{
+        font-size: 18px;
+        margin-right: 0px;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    #card-title-contact {
+        margin-left: 50px;
+        width: 380px;
+        margin-top: 180px;
+    }
+    #card-title-contact #contact{
+        font-size: 24px;
+        margin-left: 75px;
+    }
+
+    #card-body-contact-2 img{
+        display: none;
+        visibility: hidden;
+    }
+} */
+
+/* Image */
+.img-slide img {
+    width: 100%;
+    margin-top: 90px;
+}
+@media only screen and (max-width: 600px) {
+    .img-slide img {
+        width: 100%;
+    }
+}
+
+
+
+/* Donation */
+.title-donation {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 8px;
+    text-align: center;
+    /* padding-left: 55px; */
+    color: var(--text-primary);
+}
+
+#card-donation{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+#card-title-donation {
+    width: 330px;
+    height: 50px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    /* margin-left: 560px; */
+}
+
+#card-body-donation-1{
+    /* display: flex; */
+      align-items: center;
+      justify-content: center;
+}
+
+#card-body-donation-1 h5{
+    color: var(--text-primary);
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#card-body-donation-1 img{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#card-scan-donation{
+    width: 60%;
+    height: 105%;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-body-donation-2 {
+    display: flex;
+}
+
+#card-body-donation-2 h5 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: var(--text-primary);
+}
+
+#card-body-donation-2 p {
+    margin-top: 25px;
+    font-size: 32px;
+    color: var(--text-primary);
+}
+
+#card-body-donation-2 span {
+    font-size: 32px;
+    display: block;
+    color: var(--text-primary);
+}
+
+.card-tagline{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card-tagline p{
+    font-size: 50px;
+    color: var(--text-primary);
+}
+
+.card-tagline p span{
+    display: block;
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    #card-title-donation{
+        /* margin-left: 40px; */
+        width: 280px;
+        margin-top: 90px;
+    }
+
+    #card-title-donation #donation{
+        /* margin-left: 20px; */
+        font-size: 24px;
+    }
+
+    #card-scan-donation{
+        margin-left: 23px;
+        margin-right: 0px;
+        margin-top: -30px;
+        width: 320px;
+        height: 117%;
+        justify-content: center;
+        align-items: center;
+        /* display: flex; */
+    }
+
+    #card-body-donation-1 h5{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    #card-body-donation-1 img{
+        width: 80%x;
+        /* margin-left: 20px; */
+    }
+
+    #card-body-donation-2{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #card-body-donation-2 h5 {
+        font-size: 24px;
+    }
+
+    #card-body-donation-2 p{
+        font-size: 24px;
+    }
+
+    #card-body-donation-2 p span{
+        font-size: 24px;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    #card-title-donation{
+        margin-left: 50px;
+        width: 380px;
+        margin-top: 90px;
+    }
+
+    #card-donation #card-title-donation h5{
+        margin-left: 70px;
+    }
+
+    #card-scan-donation{
+        margin-left: 85px;
+        margin-top: -30px;
+        width: 320px;
+        height: 340px;
+    }
+
+    #card-scan-donation #card-body-donation-1 img{
+        margin-left: 25px;
+    }
+
+    #card-body-donation-2{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    #card-body-donation-2 p{
+        margin-left: 20px;
+    }
+} */
+
+
+
+
+/* footer */
+footer {
+    border-top: 1px solid #EAEAEA;
+    margin-top: 100px;
+}
+
+#img-footer img {
+    width: 90px;
+    color: #7E7E7E;
+}
+
+#img-footer p {
+    color: #7E7E7E;
+}
+
+.sosmed-footer {
+    display: flex;
+    gap: 43px;
+    padding-bottom: 40px;
+}
+
+.sosmed-logo a {
+    color: var(--text-primary);
+}
+
+.sosmed-logo:hover {
+    scale: 1.2;
+    animation: all 0.5s ease-in-out;
+}
+
+footer h5 {
+    font-size: 18px;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+footer ul {
+    margin-top: 38px;
+}
+
+footer li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: var(--text-primary);
+}
